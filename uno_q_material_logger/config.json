@@ -1,0 +1,8 @@
+{
+  "camera_resolution": [640, 480],
+  "roi_fraction": 0.9,
+  "roi_center_x": 0.5,
+  "roi_center_y": 0.5,
+  "detect_empty_belt": true,
+  "presence_threshold": 12.0
+}

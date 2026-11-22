@@ -1,0 +1,180 @@
+{
+  "source": "/Users/subhonghosh/Documents/embedNA_hack/ewNA-the-garbage-collectors/material_classifier/data/dataset-resized",
+  "classes": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash"
+  ],
+  "seed": 42,
+  "training": {
+    "epochs": 8,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "max_per_class": null,
+    "start_from": null,
+    "unfreeze_last": 0
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.7800308849033926,
+      "validation_loss": 0.5272783258604625,
+      "validation_accuracy": 0.8121693121693122
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.40048143721585366,
+      "validation_loss": 0.4821005532981227,
+      "validation_accuracy": 0.843915343915344
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.294640962156812,
+      "validation_loss": 0.46122784747017753,
+      "validation_accuracy": 0.8359788359788359
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.21652671509123875,
+      "validation_loss": 0.4869706085119298,
+      "validation_accuracy": 0.8412698412698413
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.18562631549878997,
+      "validation_loss": 0.4404577150862053,
+      "validation_accuracy": 0.843915343915344
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.1254125042214129,
+      "validation_loss": 0.4028949370144536,
+      "validation_accuracy": 0.8571428571428571
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.08900803172726729,
+      "validation_loss": 0.40281575855123936,
+      "validation_accuracy": 0.8571428571428571
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.07017555748906708,
+      "validation_loss": 0.41714587634202666,
+      "validation_accuracy": 0.8518518518518519
+    }
+  ],
+  "validation": {
+    "loss": 0.4028949370144536,
+    "accuracy": 0.8571428571428571,
+    "count": 378,
+    "confusion_matrix": [
+      [
+        54,
+        1,
+        0,
+        5,
+        0,
+        0
+      ],
+      [
+        1,
+        62,
+        4,
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        3,
+        53,
+        3,
+        2,
+        0
+      ],
+      [
+        6,
+        1,
+        0,
+        76,
+        4,
+        2
+      ],
+      [
+        1,
+        4,
+        1,
+        0,
+        65,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        3,
+        2,
+        14
+      ]
+    ]
+  },
+  "test": {
+    "loss": 0.423266615475438,
+    "accuracy": 0.8511749347258486,
+    "count": 383,
+    "confusion_matrix": [
+      [
+        58,
+        0,
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        53,
+        10,
+        2,
+        11,
+        0
+      ],
+      [
+        1,
+        1,
+        57,
+        0,
+        3,
+        0
+      ],
+      [
+        8,
+        1,
+        2,
+        77,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        67,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        3,
+        1,
+        14
+      ]
+    ]
+  }
+}

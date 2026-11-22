@@ -1,0 +1,11 @@
+profiles:
+  default:
+    fqbn: arduino:zephyr:unoq
+    platforms:
+      - platform: arduino:zephyr
+    libraries:
+      - Arduino_RouterBridge (0.4.3)
+      - dir: libraries/Adafruit_SSD1306
+      - dir: libraries/Adafruit_GFX_Library
+      - dir: libraries/Adafruit_BusIO
+default_profile: default

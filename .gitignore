@@ -1,0 +1,12 @@
+# ignore app cache folder
+.cache/
+__pycache__/
+*.pyc
+.venv/
+local_test/models/
+local_test/output/
+dist/
+material_classifier/data/
+material_classifier/output/
+material_classifier/captures/
+uno_q_material_logger/data/

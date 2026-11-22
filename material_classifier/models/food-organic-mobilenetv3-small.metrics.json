@@ -1,0 +1,214 @@
+{
+  "source": "material_classifier/data/taco-wrapper-experiment/mixed",
+  "classes": [
+    "cardboard",
+    "food_organic",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash"
+  ],
+  "seed": 42,
+  "training": {
+    "epochs": 4,
+    "batch_size": 32,
+    "learning_rate": 5e-05,
+    "max_per_class": null,
+    "start_from": "material_classifier/models/food-organic-mobilenetv3-small.pt",
+    "unfreeze_last": 2,
+    "balance_classes": true,
+    "train_samples_per_epoch": 3500,
+    "selection_metric": "macro_recall"
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.25043493945258005,
+      "validation_loss": 0.5191691824198846,
+      "validation_accuracy": 0.8184281842818428,
+      "validation_macro_recall": 0.8111163683147573
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.2366264003600393,
+      "validation_loss": 0.5080740554115206,
+      "validation_accuracy": 0.8292682926829268,
+      "validation_macro_recall": 0.8262389104963171
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.2302890282017844,
+      "validation_loss": 0.50420208621262,
+      "validation_accuracy": 0.8211382113821138,
+      "validation_macro_recall": 0.8138971456682811
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.21597194637571063,
+      "validation_loss": 0.5088733852501914,
+      "validation_accuracy": 0.8211382113821138,
+      "validation_macro_recall": 0.8178377936901419
+    }
+  ],
+  "validation": {
+    "loss": 0.5080740554115206,
+    "accuracy": 0.8292682926829268,
+    "macro_recall": 0.8262389104963171,
+    "per_class_recall": [
+      0.8372093023255814,
+      0.9270833333333334,
+      0.8623188405797102,
+      0.8379888268156425,
+      0.8536585365853658,
+      0.7285714285714285,
+      0.7368421052631579
+    ],
+    "count": 1107,
+    "confusion_matrix": [
+      [
+        108,
+        1,
+        2,
+        3,
+        11,
+        1,
+        3
+      ],
+      [
+        2,
+        178,
+        0,
+        2,
+        1,
+        0,
+        9
+      ],
+      [
+        3,
+        1,
+        119,
+        4,
+        0,
+        11,
+        0
+      ],
+      [
+        4,
+        0,
+        5,
+        150,
+        3,
+        8,
+        9
+      ],
+      [
+        9,
+        1,
+        1,
+        2,
+        140,
+        4,
+        7
+      ],
+      [
+        5,
+        0,
+        14,
+        14,
+        5,
+        153,
+        19
+      ],
+      [
+        2,
+        6,
+        4,
+        2,
+        4,
+        7,
+        70
+      ]
+    ]
+  },
+  "test": {
+    "loss": 0.502120301100777,
+    "accuracy": 0.832737030411449,
+    "macro_recall": 0.8331145176968514,
+    "per_class_recall": [
+      0.8549618320610687,
+      0.9484536082474226,
+      0.8201438848920863,
+      0.8232044198895028,
+      0.8121212121212121,
+      0.75,
+      0.8229166666666666
+    ],
+    "count": 1118,
+    "confusion_matrix": [
+      [
+        112,
+        1,
+        0,
+        1,
+        11,
+        2,
+        4
+      ],
+      [
+        4,
+        184,
+        0,
+        0,
+        0,
+        2,
+        4
+      ],
+      [
+        0,
+        0,
+        114,
+        10,
+        0,
+        13,
+        2
+      ],
+      [
+        4,
+        2,
+        5,
+        149,
+        1,
+        10,
+        10
+      ],
+      [
+        16,
+        1,
+        2,
+        3,
+        134,
+        1,
+        8
+      ],
+      [
+        7,
+        2,
+        9,
+        11,
+        5,
+        159,
+        19
+      ],
+      [
+        4,
+        2,
+        2,
+        3,
+        4,
+        2,
+        79
+      ]
+    ]
+  }
+}

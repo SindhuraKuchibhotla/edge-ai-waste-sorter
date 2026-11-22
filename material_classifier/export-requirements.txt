@@ -1,0 +1,4 @@
+# Install after requirements.txt when exporting and checking the UNO Q model.
+onnx==1.19.0
+onnxruntime==1.24.2
+ml-dtypes==0.5.3

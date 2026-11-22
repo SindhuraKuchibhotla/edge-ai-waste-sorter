@@ -1,0 +1,18 @@
+{
+  "labels": [
+    "cardboard",
+    "food_organic",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash"
+  ],
+  "source_checkpoint_sha256": "fc168b983f4bc2ee1ce0605dddfd67800d3fbabe5ab1aec111f75f07206176d0",
+  "input_shape": [
+    1,
+    3,
+    224,
+    224
+  ]
+}
