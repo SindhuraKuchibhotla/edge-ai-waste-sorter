@@ -112,7 +112,7 @@ python -m unittest discover -s tests
 
 ## Team
 
-Built by The Garbage Collectors: Henri Goosen (integration), Subhon Ghosh (model), Hannah (conveyor and hardware), and Sindhura Kuchibhotla (OLED display, LED and wiring design, Bridge integration).
+Built by The Garbage Collectors: Henri Goosen (integration), Subhon Ghosh (model), Hannah (conveyor and hardware), and Sindhura Kuchibhotla (team lead; OLED display, LED and wiring design, Bridge integration).
 
 ## Licenses and credits
 
